@@ -1,6 +1,7 @@
 /*-----------------------------------*\
   #style.css
 \*-----------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@500&family=Space+Grotesk&display=swap');
 
 /**
  * 
@@ -40,8 +41,7 @@
      * typography
      */
   
-    --ff-poppins: 'Poppins', sans-serif;
-    --ff-jost: 'Jost', sans-serif;
+    --body-font: 'Oxanium', sans-serif;
   
     --fs-1: 4.8rem;
     --fs-2: 3.2rem;
@@ -149,6 +149,7 @@
     background-color: var(--rich-black-fogra-39);
     color: var(--spanish-gray);
     font-size: 1.6rem;
+    font-family: var(--body-font);
   }
   
   ::-webkit-scrollbar { width: 15px; }
